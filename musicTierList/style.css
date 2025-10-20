@@ -1,0 +1,40 @@
+.tierRow{
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1a17;
+    margin:0px;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.tierLabel{
+    background-color: orange;
+    color: black;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+body{
+    background-color: #242222;
+}
+
+.heading{
+    color: cyan;
+}
+
+.tierSort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.song-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
