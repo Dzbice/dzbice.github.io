@@ -1,6 +1,6 @@
 async function loadSongs(){
     try{
-        const response = await fetch('songs.json');
+        const response = await fetch('https://gist.githubusercontent.com/Dzbice/a706ad470b4d775047571f5a3e0892b4/raw/056500228736405e421aba9d336df3b156e67bad/songs.json');
         const data = await response.json();
         data.songs.forEach(song => {
             const img = document.createElement('img');
