@@ -1,5 +1,13 @@
 .standardFull{
-    -fx-padding: 20px;
-    -fx-background-color:#0a0a09;
+    -fx-padding: 50px;
     -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.results{
+    -fx-background-color:#0a0a09;
+}
+
+.standard{
+    -fx-background-color: transparent;
 }

@@ -13,6 +13,7 @@ async function loadSongs(){
             img.alt = song.title;
             img.title = song.title;
             img.classList.add('song-image');
+            
 
             const tierDiv = document.querySelector(`#${song.tier} .tierSort`);
 
